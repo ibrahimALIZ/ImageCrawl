@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dip" >
+
+    <ImageView
+        android:id="@+list/thumb"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+list/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@+list/thumb"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="18dip"
+        android:textStyle="bold" 
+        style="@style/main_menu"
+        />
+
+    <!-- Button
+        android:id="@+id/details"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" 
+        android:text=">" 
+        android:textSize="18dip"
+        android:textStyle="bold" 
+        android:textColor="#F0FF0F"
+        android:typeface="monospace"
+        android:background="#000000" -->
+
+</RelativeLayout>

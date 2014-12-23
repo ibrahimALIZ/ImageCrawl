@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="context_menu_title"></string>
+    <string name="app_name_short">ICrawl</string>
+    <string name="app_name">ImageCrawl</string>
+	<string name="save_label">Save</string>
+</resources>

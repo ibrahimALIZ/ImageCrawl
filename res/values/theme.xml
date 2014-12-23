@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ListTheme" parent="android:Theme">
+        <item name="android:windowNoTitle">true</item>
+        
+       	<item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#0A0000</item>
+        <item name="android:textColor">#F0F0F0</item>
+        <item name="android:textColorHighlight">#FAF0FF</item>
+        <item name="android:shadowColor">#00FFF0</item>
+        <item name="android:typeface">monospace</item>       
+    </style>
+    
+    <style name="MyTheme" parent="android:Theme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>
